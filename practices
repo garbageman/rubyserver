@@ -1,0 +1,4 @@
+Message encoding practices:
+Add one(two?) parity bytes to the header of a message to check for corruption
+Send the length of the message in the header (what do we want the max length to be?)
+Max length : 65536
